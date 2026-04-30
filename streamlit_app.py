@@ -565,7 +565,7 @@ if uploaded_video:
             df = pd.DataFrame(results["chunks"])
 
             # Display table
-            st.dataframe(df, use_container_width=True)
+            st.dataframe(df, width=True)
 
             # ------------------------------
             # BPM Graph
