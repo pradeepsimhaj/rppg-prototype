@@ -4,7 +4,7 @@
     "overall_respiratory_rate": 14.0,
     "overall_hrv_ms": 197.93,
     "overall_stress_level": "Low",
-    "overall_confidence_score": 0.23
+    "overall_confidence_score": 0.54
   },
   "chunks": [
     {
@@ -15,9 +15,9 @@
       "respiratory_rate": 24.0,
       "hrv_ms": 273.13,
       "stress_level": "Low",
-      "confidence_score": 0.24,
+      "confidence_score": 0.54,
       "frames_processed": 150,
-      "runtime_sec": 2.759
+      "runtime_sec": 2.38
     },
     {
       "chunk": 1,
@@ -27,9 +27,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 118.63,
       "stress_level": "Low",
-      "confidence_score": 0.21,
+      "confidence_score": 0.52,
       "frames_processed": 150,
-      "runtime_sec": 2.462
+      "runtime_sec": 2.902
     },
     {
       "chunk": 2,
@@ -39,9 +39,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 68.49,
       "stress_level": "Moderate",
-      "confidence_score": 0.23,
+      "confidence_score": 0.54,
       "frames_processed": 150,
-      "runtime_sec": 2.752
+      "runtime_sec": 3.161
     },
     {
       "chunk": 3,
@@ -51,9 +51,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 252.45,
       "stress_level": "Low",
-      "confidence_score": 0.25,
+      "confidence_score": 0.56,
       "frames_processed": 150,
-      "runtime_sec": 2.555
+      "runtime_sec": 2.854
     },
     {
       "chunk": 4,
@@ -63,9 +63,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 205.26,
       "stress_level": "Low",
-      "confidence_score": 0.23,
+      "confidence_score": 0.54,
       "frames_processed": 150,
-      "runtime_sec": 3.034
+      "runtime_sec": 3.144
     },
     {
       "chunk": 5,
@@ -75,9 +75,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 277.77,
       "stress_level": "Low",
-      "confidence_score": 0.2,
+      "confidence_score": 0.5,
       "frames_processed": 150,
-      "runtime_sec": 2.727
+      "runtime_sec": 3.4
     },
     {
       "chunk": 6,
@@ -87,9 +87,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 252.88,
       "stress_level": "Low",
-      "confidence_score": 0.2,
+      "confidence_score": 0.5,
       "frames_processed": 150,
-      "runtime_sec": 3.262
+      "runtime_sec": 3.26
     },
     {
       "chunk": 7,
@@ -99,9 +99,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 200.39,
       "stress_level": "Low",
-      "confidence_score": 0.22,
+      "confidence_score": 0.52,
       "frames_processed": 150,
-      "runtime_sec": 3.264
+      "runtime_sec": 3.243
     },
     {
       "chunk": 8,
@@ -111,9 +111,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 160.0,
       "stress_level": "Low",
-      "confidence_score": 0.28,
+      "confidence_score": 0.58,
       "frames_processed": 150,
-      "runtime_sec": 2.671
+      "runtime_sec": 3.141
     },
     {
       "chunk": 9,
@@ -123,9 +123,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 255.08,
       "stress_level": "Low",
-      "confidence_score": 0.21,
+      "confidence_score": 0.52,
       "frames_processed": 150,
-      "runtime_sec": 2.771
+      "runtime_sec": 2.828
     },
     {
       "chunk": 10,
@@ -135,9 +135,9 @@
       "respiratory_rate": 24.0,
       "hrv_ms": 186.34,
       "stress_level": "Low",
-      "confidence_score": 0.26,
+      "confidence_score": 0.57,
       "frames_processed": 150,
-      "runtime_sec": 2.236
+      "runtime_sec": 2.954
     },
     {
       "chunk": 11,
@@ -147,9 +147,9 @@
       "respiratory_rate": 12.0,
       "hrv_ms": 124.72,
       "stress_level": "Low",
-      "confidence_score": 0.28,
+      "confidence_score": 0.58,
       "frames_processed": 150,
-      "runtime_sec": 2.664
+      "runtime_sec": 2.197
     },
     {
       "chunk": 12,
@@ -161,13 +161,13 @@
       "stress_level": "Unknown",
       "confidence_score": null,
       "frames_processed": 7,
-      "runtime_sec": 0.106
+      "runtime_sec": 0.103
     }
   ],
   "performance_metrics": {
     "video_duration_sec": 60.23,
-    "total_runtime_sec": 38.19,
-    "avg_chunk_runtime_sec": 2.559,
+    "total_runtime_sec": 40.37,
+    "avg_chunk_runtime_sec": 2.736,
     "total_chunks": 13,
     "fps": 30,
     "total_frames": 1807
