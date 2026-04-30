@@ -97,11 +97,11 @@ def estimate_bpm(signal, fs):
 
     # Confidence Score
     peak_power = np.max(yf[valid_idx])
-    mean_power = np.mean(yf[valid_idx])
+    avg_power = np.sum(yf[valid_idx])
 
-    confidence = peak_power / (peak_power + mean_power)
+    confidence = peak_power / (peak_power + avg_power)
 
-    confidence = min(round(confidence, 2))
+    confidence = min(round(confidence / 10, 2), 1.0)
 
     return round(float(bpm), 2), confidence
 
