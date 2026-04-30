@@ -565,11 +565,12 @@ if uploaded_video:
             df = pd.DataFrame(results["chunks"])
 
             # Display table
-            st.dataframe(df, width=True)
+            st.dataframe(df, width="stretch")
 
             # ------------------------------
             # BPM Graph
             # ------------------------------
+
             st.subheader("BPM Trend")
 
             fig1, ax1 = plt.subplots()
@@ -579,6 +580,7 @@ if uploaded_video:
                 df["bpm"],
                 marker='o'
             )
+
 
             ax1.set_xlabel("Chunk")
             ax1.set_ylabel("BPM")
