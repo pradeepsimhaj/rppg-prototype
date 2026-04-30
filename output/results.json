@@ -1,0 +1,175 @@
+{
+  "overall_metrics": {
+    "overall_bpm": 78.0,
+    "overall_respiratory_rate": 14.0,
+    "overall_hrv_ms": 197.93,
+    "overall_stress_level": "Low",
+    "overall_confidence_score": 0.23
+  },
+  "chunks": [
+    {
+      "chunk": 0,
+      "start_sec": 0,
+      "end_sec": 5,
+      "bpm": 60.0,
+      "respiratory_rate": 24.0,
+      "hrv_ms": 273.13,
+      "stress_level": "Low",
+      "confidence_score": 0.24,
+      "frames_processed": 150,
+      "runtime_sec": 2.759
+    },
+    {
+      "chunk": 1,
+      "start_sec": 5,
+      "end_sec": 10,
+      "bpm": 72.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 118.63,
+      "stress_level": "Low",
+      "confidence_score": 0.21,
+      "frames_processed": 150,
+      "runtime_sec": 2.462
+    },
+    {
+      "chunk": 2,
+      "start_sec": 10,
+      "end_sec": 15,
+      "bpm": 72.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 68.49,
+      "stress_level": "Moderate",
+      "confidence_score": 0.23,
+      "frames_processed": 150,
+      "runtime_sec": 2.752
+    },
+    {
+      "chunk": 3,
+      "start_sec": 15,
+      "end_sec": 20,
+      "bpm": 84.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 252.45,
+      "stress_level": "Low",
+      "confidence_score": 0.25,
+      "frames_processed": 150,
+      "runtime_sec": 2.555
+    },
+    {
+      "chunk": 4,
+      "start_sec": 20,
+      "end_sec": 25,
+      "bpm": 120.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 205.26,
+      "stress_level": "Low",
+      "confidence_score": 0.23,
+      "frames_processed": 150,
+      "runtime_sec": 3.034
+    },
+    {
+      "chunk": 5,
+      "start_sec": 25,
+      "end_sec": 30,
+      "bpm": 96.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 277.77,
+      "stress_level": "Low",
+      "confidence_score": 0.2,
+      "frames_processed": 150,
+      "runtime_sec": 2.727
+    },
+    {
+      "chunk": 6,
+      "start_sec": 30,
+      "end_sec": 35,
+      "bpm": 48.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 252.88,
+      "stress_level": "Low",
+      "confidence_score": 0.2,
+      "frames_processed": 150,
+      "runtime_sec": 3.262
+    },
+    {
+      "chunk": 7,
+      "start_sec": 35,
+      "end_sec": 40,
+      "bpm": 96.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 200.39,
+      "stress_level": "Low",
+      "confidence_score": 0.22,
+      "frames_processed": 150,
+      "runtime_sec": 3.264
+    },
+    {
+      "chunk": 8,
+      "start_sec": 40,
+      "end_sec": 45,
+      "bpm": 72.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 160.0,
+      "stress_level": "Low",
+      "confidence_score": 0.28,
+      "frames_processed": 150,
+      "runtime_sec": 2.671
+    },
+    {
+      "chunk": 9,
+      "start_sec": 45,
+      "end_sec": 50,
+      "bpm": 84.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 255.08,
+      "stress_level": "Low",
+      "confidence_score": 0.21,
+      "frames_processed": 150,
+      "runtime_sec": 2.771
+    },
+    {
+      "chunk": 10,
+      "start_sec": 50,
+      "end_sec": 55,
+      "bpm": 72.0,
+      "respiratory_rate": 24.0,
+      "hrv_ms": 186.34,
+      "stress_level": "Low",
+      "confidence_score": 0.26,
+      "frames_processed": 150,
+      "runtime_sec": 2.236
+    },
+    {
+      "chunk": 11,
+      "start_sec": 55,
+      "end_sec": 60,
+      "bpm": 60.0,
+      "respiratory_rate": 12.0,
+      "hrv_ms": 124.72,
+      "stress_level": "Low",
+      "confidence_score": 0.28,
+      "frames_processed": 150,
+      "runtime_sec": 2.664
+    },
+    {
+      "chunk": 12,
+      "start_sec": 60,
+      "end_sec": 65,
+      "bpm": null,
+      "respiratory_rate": null,
+      "hrv_ms": null,
+      "stress_level": "Unknown",
+      "confidence_score": null,
+      "frames_processed": 7,
+      "runtime_sec": 0.106
+    }
+  ],
+  "performance_metrics": {
+    "video_duration_sec": 60.23,
+    "total_runtime_sec": 38.19,
+    "avg_chunk_runtime_sec": 2.559,
+    "total_chunks": 13,
+    "fps": 30,
+    "total_frames": 1807
+  }
+}
