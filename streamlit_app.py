@@ -9,8 +9,6 @@ from pathlib import Path
 import tempfile
 import pandas as pd
 import matplotlib.pyplot as plt
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
 import sys
 
 
@@ -21,19 +19,13 @@ CHUNK_DURATION = 5  # seconds
 # Select Video File
 # ------------------------------
 def select_video():
-    root = Tk()
-    root.withdraw()
 
-    video_path = askopenfilename(
+    video_path = st.file_uploader(
         title="Select Face Video",
         filetypes=[
             ("Video Files", "*.mp4 *.avi *.mov *.mkv")
         ]
     )
-
-    if not video_path:
-        print("No video selected.")
-        sys.exit()
 
     return video_path
 
